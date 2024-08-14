@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    margin: 0;
+    margin: 0 auto;
     width: 80%;
     height: 80hv;
     background-color: #222;
