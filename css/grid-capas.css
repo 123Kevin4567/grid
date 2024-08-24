@@ -1,0 +1,58 @@
+@import url(style.css);
+
+
+.grid-capas{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 181px);
+    grid-template-rows: repeat(4, 181px);
+       
+}
+
+.grid-capas .item:nth-child(1){
+    background-color: aquamarine;
+    grid-column: 1/3;
+    grid-row: 1/3;
+
+    
+    border-radius: 50%;
+}
+
+.grid-capas .item:nth-child(2){
+    background-color: rgb(13, 77, 216);
+    grid-column: 3/5;
+    grid-row: 1/3;
+
+    border-radius: 50%;
+
+}
+
+.grid-capas .item:nth-child(3){
+    background-color: rgb(241, 227, 28);
+    grid-column: 1/3;
+    grid-row:3/5 ;
+
+    border-radius: 50%;
+
+}
+
+.grid-capas .item:nth-child(4){
+    background-color: rgb(219, 21, 160);
+    grid-column: 3/5;
+    grid-row: 3/5;
+
+    border-radius: 50%;
+
+}
+
+.grid-capas .item:nth-child(5){
+    background-color: rgb(214, 36, 60);
+    grid-column: 2/4;
+    grid-row: 2/4;
+
+    
+    border-radius: 50%;
+
+}
+
+
